@@ -88,7 +88,7 @@ def create_image(values, number):
 
 def post_on_facebook(image):
     print ('Trying Facebook page...')
-    my_token = 'EAAj9utB7DlUBAFz01dd4N3pXVzszNtYHF7GE8eVNZC3c8WTjB4JZCC8xFkYP0VUGI85nkjogvg1Q2UuObw68v6TLU0mvNn7nsUwYVXefZCABvWmLdSwp7hCY17rhaLZArcQUyQsxl9jj9oyeOii0BSqZByOrrPZCjnSviY2FTwRxO3OLYRW0TO'
+    my_token = 
     graph = GraphAPI(my_token) 
     # Get my latest posts
     #my_posts = graph.get("me/posts")    
